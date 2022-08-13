@@ -1,0 +1,14 @@
+{
+  "name": "cypress-chrome-extension-minimal-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node testAppRunner/app.js",
+    "test": "cypress open --e2e --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.4.0"
+  }
+}
